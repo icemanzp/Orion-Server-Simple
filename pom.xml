@@ -17,7 +17,7 @@
 		<spring.version>3.2.3.RELEASE</spring.version>
 		<mybaits.version>3.2.8</mybaits.version>
 		<mybatis-spring.version>1.2.3</mybatis-spring.version>
-		<netty-wfj-version>1.4.1.SNAPSHOT</netty-wfj-version><!-- RELEASE  SNAPSHOT-->
+		<netty-wfj-version>2.1.2.SNAPSHOT</netty-wfj-version><!-- RELEASE  SNAPSHOT-->
 		<druid-version>1.0.18</druid-version>
 	</properties>
 
