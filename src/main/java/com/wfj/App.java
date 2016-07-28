@@ -28,12 +28,12 @@ public class App {
 			w.flush();
 			w.close();
 			s.close();
-		} else if (args == null || args.length == 0 || args[0].equals("start")) {
+		} else if (args != null && args.length >=3 && args[0].equals("start")) {
 			int serverPort = Integer.parseInt(args[1]);
 			int conrtrolPort = Integer.parseInt(args[2]);
-			String startupModel = args[3];
-			if (startupModel != null) {
-				server = new Server(serverPort, conrtrolPort, startupModel);
+			
+			if (args.length > 3) {
+				server = new Server(serverPort, conrtrolPort, args[3]);
 			} else {
 				server = new Server(serverPort, conrtrolPort);
 			}
