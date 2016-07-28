@@ -16,7 +16,7 @@
     <main-config-path>config/</main-config-path>
     <main-context-path>applicationContext.xml</main-context-path>
     <main-servlet-path>springmvc-servlet.xml</main-servlet-path>
-    <plus-servlet-path></plus-servlet-path>
+    <plus-servlet-path>plusingContext.xml</plus-servlet-path>
   </spring>
   <dispather-infos>
     <servlet isSpring="true" servlet-class="org.springframework.web.servlet.DispatcherServlet" servlet-name="dispatcher" servlet-suffix="*.htm$,*.json"/>
@@ -24,7 +24,7 @@
   </dispather-infos>
   <monitor-info isDebug="false">
     <monitor-server>
-      <server-path>127.0.0.1</server-path>
+      <server-path>192.168.99.100:32770</server-path>
       <server-timeout>5000</server-timeout>
       <server-reconnect-count>5</server-reconnect-count>
     </monitor-server>
