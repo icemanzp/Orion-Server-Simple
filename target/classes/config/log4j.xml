@@ -39,7 +39,11 @@
         <appender-ref ref="ASYNC"/>
     </logger>
     <logger name="org.springframework" additivity="false">
+<<<<<<< HEAD
         <level value="DEBUG"/>
+=======
+        <level value="INFO"/>
+>>>>>>> branch 'master' of git@10.6.3.213:RD/WFJ-Netty-Simple.git
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="ASYNC"/>
     </logger>
