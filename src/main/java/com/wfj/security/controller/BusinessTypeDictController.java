@@ -44,7 +44,7 @@ public class BusinessTypeDictController{
 			throws Exception {
 		Map<String, Object> res = new HashMap<String, Object>();  
 		
-		Resource resource = fr.findResourceByID(Long.valueOf("2").longValue());
+		Resource resource = fr.findResourceByID(Long.valueOf("3").longValue());
 		
 		res.put("success", true);
 		res.put("data", resource);
@@ -57,7 +57,7 @@ public class BusinessTypeDictController{
 	public Map<String, Object> findRoleId(HttpServletRequest request){
 		Map<String, Object> res = new HashMap<String, Object>();  
 		
-		Role role = fr.findRoleByID(Long.valueOf("2").longValue());
+		Role role = fr.findRoleByID(Long.valueOf("3").longValue());
 		
 		res.put("success", true);
 		res.put("data", role);

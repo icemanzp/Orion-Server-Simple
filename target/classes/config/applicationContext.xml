@@ -24,30 +24,7 @@
     <!-- 数据源的配置 -->
     <bean name="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-        <property name="url" value="jdbc:mysql://localhost:3306/security"></property>
-        <property name="username" value="security"></property>
-        <property name="password" value="security"></property>
-        <!-- data source configuration -->
-        <property name="initialSize" value="60"/>
-        <!-- initial connections -->
-        <property name="maxActive" value="100"/>
-        <!--MAX connections -->
-        <property name="maxIdle" value="50"/>
-        <!-- MAX idle connections -->
-        <property name="minIdle" value="10"/>
-        <!-- MIN idle connections -->
-        <!-- 处理mysql 8小时自动断开连接的问题 -->
-        <property name="testWhileIdle" value="true"/>
-        <property name="testOnBorrow" value="false"/>
-        <property name="testOnReturn" value="false"/>
-        <property name="validationQuery" value="select 1"/>
-        <property name="timeBetweenEvictionRunsMillis" value="20000"/>
-        <property name="numTestsPerEvictionRun" value="100"/>
-    </bean>
-
-    <bean name="ds1" class="org.apache.commons.dbcp.BasicDataSource">
-        <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-        <property name="url" value="jdbc:mysql://localhost:3306/message_v3"></property>
+        <property name="url" value="jdbc:mysql://192.168.99.100:3306/security"></property>
         <property name="username" value="security"></property>
         <property name="password" value="security"></property>
         <!-- data source configuration -->
