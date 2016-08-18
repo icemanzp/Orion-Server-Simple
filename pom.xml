@@ -16,7 +16,7 @@
 		<spring.version>3.2.3.RELEASE</spring.version>
 		<mybaits.version>3.2.8</mybaits.version>
 		<mybatis-spring.version>1.2.3</mybatis-spring.version>
-		<netty-wfj-version>2.3.1-SNAPSHOT</netty-wfj-version><!-- RELEASE  SNAPSHOT-->
+		<netty-wfj-version>2.3.2-SNAPSHOT</netty-wfj-version><!-- RELEASE  SNAPSHOT-->
 		<wfj.monitor.version>1.3.1-SNAPSHOT</wfj.monitor.version><!-- RELEASE SNAPSHOT -->
 		<druid-version>1.0.18</druid-version>
 		<zookeeper.version>3.4.6</zookeeper.version>
@@ -234,6 +234,13 @@
 	</dependencies>
 
 	<build>
+		<extensions>
+			<extension>
+				<groupId>org.slf4j</groupId>
+		        <artifactId>slf4j-log4j12</artifactId>
+			</extension>
+		</extensions>
+		
 		<resources>
 			<resource>
 				<directory>src/main/resource</directory>
@@ -264,5 +271,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	
 </project>
