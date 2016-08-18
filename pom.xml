@@ -195,11 +195,7 @@
 			<artifactId>bcmail-jdk15on</artifactId>
 			<version>1.52</version>
 		</dependency>
-		<dependency>
-			<groupId>javax.jws</groupId>
-			<artifactId>jsr181</artifactId>
-			<version>1.0</version>
-		</dependency>
+
 		<dependency>
 			<groupId>javax.jws</groupId>
 			<artifactId>jsr181-api</artifactId>

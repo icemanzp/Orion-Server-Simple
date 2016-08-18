@@ -4,8 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="springDataSourceBeanPostProcessor"
-          class="com.wfj.netty.monitor.handler.spring.SpringDataSourceBeanPostProcessor"/>
-    <bean id="wrappedDataSource" class="com.wfj.netty.monitor.handler.factory.SpringDataSourceFactoryBean">
+          class="com.wfj.netty.servlet.handler.spring.SpringDataSourceBeanPostProcessor"/>
+    <bean id="wrappedDataSource" class="com.wfj.netty.servlet.handler.factory.SpringDataSourceFactoryBean">
         <property name="targetName" value="dataSource"/>
     </bean>
 

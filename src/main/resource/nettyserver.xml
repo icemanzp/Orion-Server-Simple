@@ -15,10 +15,10 @@
 			<keystore-certpasswd>keystore-certpasswd</keystore-certpasswd>
 		</ssh-info>
 		<base-params>
-			<param param-name="contextConfigLocation" param-value="classpath*:/conf/applicationContext.xml,
-            classpath*:/conf/beans-monitoring-spring-datasource.xml,
-            classpath*:/conf/springmvc-servlet.xml,
-            classpath*:/conf/plusingContext.xml" />
+			<param param-name="contextConfigLocation" param-value="classpath*:/config/applicationContext.xml,
+            classpath*:/config/beans-monitoring-spring-datasource.xml,
+            classpath*:/config/springmvc-servlet.xml,
+            classpath*:/config/plusingContext.xml" />
 		</base-params>
 	</base-info>
 
