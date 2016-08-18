@@ -29,15 +29,16 @@ public class App {
 			w.close();
 			s.close();
 		} else if (args != null && args.length >=3 && args[0].equals("start")) {
-			int serverPort = Integer.parseInt(args[1]);
-			int conrtrolPort = Integer.parseInt(args[2]);
-			
-			if (args.length > 3) {
-				server = new Server(serverPort, conrtrolPort, args[3]);
-			} else {
-				server = new Server(serverPort, conrtrolPort);
-			}
 			try {
+				int serverPort = Integer.parseInt(args[1]);
+				int conrtrolPort = Integer.parseInt(args[2]);
+				
+				if (args.length > 3) {
+					server = new Server(serverPort, conrtrolPort, args[3]);
+				} else {
+					server = new Server(serverPort, conrtrolPort);
+				}
+			
 				server.run();
 			} catch (Exception e) {
 				log.error(e.getMessage(), e);
