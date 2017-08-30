@@ -27,7 +27,7 @@
 	</listener-infos>
 
 	<filter-infos onStartup="true">
-		<filter filter-class="com.wfj.netty.servlet.filter.Monitor" filter-name="Monitor">
+		<filter filter-class="com.jack.netty.servlet.filter.Monitor" filter-name="Monitor">
 			<filter-mapping  url-pattern="/*" />
 		</filter>
 	</filter-infos>

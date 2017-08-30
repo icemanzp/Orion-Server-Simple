@@ -18,9 +18,9 @@
         <setting name="defaultStatementTimeout" value="25000"/>
     </settings>
     <!-- <typeAliases>
-         <typeAlias alias="Resource" type="com.wfj.security.entity.Resource"/>
-         <typeAlias alias="Role" type="com.wfj.security.entity.Role"/>
-         <typeAlias alias="RoleResource" type="com.wfj.security.entity.RoleResource"/>
+         <typeAlias alias="Resource" type="Resource"/>
+         <typeAlias alias="Role" type="Role"/>
+         <typeAlias alias="RoleResource" type="RoleResource"/>
      </typeAliases>-->
     <plugins>
         <plugin interceptor="com.github.pagehelper.PageHelper">
