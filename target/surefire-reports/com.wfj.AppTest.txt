@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.wfj.AppTest
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec
-=======
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
->>>>>>> branch 'master' of git@10.6.3.213:RD/WFJ-Netty-Simple.git
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec

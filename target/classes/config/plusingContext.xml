@@ -8,7 +8,7 @@
 
     <import resource="classpath:META-INF/cxf/cxf.xml"/>
     <import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
-    <bean id="hello" class="com.wfj.security.controller.HellowWordController"/>
+    <bean id="hello" class="com.jack.security.controller.HellowWordController"/>
     <jaxws:endpoint id="helloWorld" implementor="#hello" address="/webservice/hw"/>
 
 </beans>
