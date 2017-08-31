@@ -17,9 +17,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
-    <orderEntry type="library" name="Maven: com.wfj.netty:netty-wfj-base:2.3.3-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.jack.orion:orion-server:3.0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.0.27.Final" level="project" />
-    <orderEntry type="library" name="Maven: com.wfj.netty:servlet-monitor:1.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.jack.orion:orion-monitor:2.0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Maven: commons-dbcp:commons-dbcp:1.4" level="project" />
     <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.5.4" level="project" />
