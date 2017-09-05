@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<netty-server-info xmlns="http://www.wangfujing.com/nettyserver"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.wangfujing.com/nettyserver nettyserver.xsd ">
+<netty-server-info xmlns="http://www.jack.com/nettyserver" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				   xsi:schemaLocation="http://www.jack.com/nettyserver nettyserver.xsd ">
 	<base-info>
 		<server-name>netty-test</server-name>
 		<server-root>/netty-test</server-root>

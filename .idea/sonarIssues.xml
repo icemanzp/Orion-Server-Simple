@@ -23,7 +23,12 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../orion-simple/pom.xml">
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resource/nettyserver.xml">
           <value>
             <set />
           </value>
